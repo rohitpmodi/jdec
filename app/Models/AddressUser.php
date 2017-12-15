@@ -9,11 +9,9 @@ use Illuminate\Database\Eloquent\Model;
  * Class Address.
  *
  */
-class Address extends Model implements ModelInterface {
+class AddressUser extends Model implements ModelInterface {
 
     public $table = 'address_user';
     public $timestamps = false;
-
-
 
 }
