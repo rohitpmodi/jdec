@@ -29,4 +29,12 @@ class Book extends Model implements ModelInterface {
         return $query;
     }
 
+    public function getProductQtyAttribute() {
+        $qty = 1;
+        if($this->pivot->quantity > 0){
+            $qty = $this->pivot->quantity;
+        }
+        return $qty;
+    }
+
 }
