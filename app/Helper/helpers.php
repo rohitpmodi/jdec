@@ -303,7 +303,7 @@ function getCartCount() {
     return $count;
 }
 
-function srNo($key, $per_page = 10) {
+function srNo($key, $per_page = 50) {
     if (app('request')->input('page')) {
         $page = app('request')->input('page');
     } else {

@@ -113,7 +113,7 @@ class ProductController extends Controller {
 
     public function book($id) {
         $product = $this->product->find($id);
-        $book = \App\Models\Book::select('id',DB::raw("CONCAT(book_code, ' / ',name, ' / ', price) as item_name"))->where(['company_id' => $product['company_id'],'is_taxable' => $product['is_taxable']])->active()->lists('item_name', 'id')->toArray();
+        $book = \App\Models\Book::select('id',DB::raw("CONCAT(book_code, ' / ',name, ' / ', price_after_tax) as item_name"))->where(['company_id' => $product['company_id'],'is_taxable' => $product['is_taxable']])->active()->lists('item_name', 'id')->toArray();
         $book = [null => 'Please Select'] + $book;
 //        /dd($product->books);
         return view('backend.product.book', compact('product', 'book'));

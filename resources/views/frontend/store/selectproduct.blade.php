@@ -73,7 +73,7 @@ Jeevandeep Prakashan Pvt. Ltd.
                             @foreach($ps->books as $book)
                             <tr>
                                 <td class="name">{{$book->name}}</td>
-                                <td class="quantity">1.00</td>
+                                <td class="quantity">{{$book->product_qty}}</td>
                                 <td class="cost">INR {{$book->price}}</td>
                                 <td class="subtotal">INR {{$book->price}}</td>
                                 <td class="gst">{{$book->tax}}%</td>
@@ -144,7 +144,7 @@ Jeevandeep Prakashan Pvt. Ltd.
                                 <td class="mrp">INR {{numberWithDecimal($ps->shipping_state)}}</td>
                             </tr>
                             <?php $shippingtax = (($ps->shipping_state * getProductItemHighestTax($ps->id)) / 100); ?>
-                            <?php if(userState('shipping') == $ps->company->state){?>
+                            <?php if(userState('billing') == $ps->company->state){?>
                             <tr>
                                 <td class="name text-right">SGST on shipping costs in inr</td>
                                 <td class="quantity nobg"></td>
