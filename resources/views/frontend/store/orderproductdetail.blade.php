@@ -48,7 +48,7 @@ Jeevandeep Prakashan Pvt. Ltd.
                 @foreach($books as $book)
                 <tr>
                     <td class="name">{{$book->name}}</td>
-                    <td class="quantity">1.00</td>
+                    <td class="quantity">{{$book->quantity}}</td>
                     <td class="cost">INR {{$book->price}}</td>
                     <td class="subtotal">INR {{$book->price}}</td>
                     <td class="gst">{{$book->tax}}%</td>
@@ -119,7 +119,7 @@ Jeevandeep Prakashan Pvt. Ltd.
                     <td class="gst nobg"></td>
                     <td class="mrp">INR {{numberWithDecimal($order->shipping_charges)}}</td>
                 </tr>
-                    @if($order->user_ship_state == 'in_state')
+                    @if($order->user_bill_state == 'in_state')
                     <tr>
                         <td class="name text-right">SGST on shipping costs in inr</td>
                         <td class="quantity nobg"></td>
@@ -137,7 +137,7 @@ Jeevandeep Prakashan Pvt. Ltd.
                         <td class="mrp">INR {{numberWithDecimal($order->cgst_shipping)}}</td>
                     </tr>
                     @endif
-                    @if($order->user_ship_state == 'out_state')
+                    @if($order->user_bill_state == 'out_state')
                     <tr>
                         <td class="name text-right">IGST on shipping costs in inr</td>
                         <td class="quantity nobg"></td>

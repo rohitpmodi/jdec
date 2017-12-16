@@ -115,10 +115,15 @@ $(document).ready(function () {
         $.get('{{ url('en/information') }}/create/ajax-school?state=' + state, function(data) {
             $('#school-option').empty();
             $('#standard-option').empty();
-            $('.school-value').html('SELECT SCHOOL');
-            $.each(data, function(index,subCatObj){
-                $('#school-option').append('<li data-id="'+subCatObj.id+'">'+subCatObj.name+'</li>');
-            });
+            if(data.length > 0){
+                $('.school-value').html('SELECT SCHOOL');
+                $.each(data, function(index,subCatObj){
+                    $('#school-option').append('<li data-id="'+subCatObj.id+'">'+subCatObj.name+'</li>');
+                });
+            }else{
+                $('.school-value').html('<font class="red_italic">Not Available</font>');
+                $('.school_dd').addClass('disabled');
+            }
             //$('#school-option').append('<li data-id="not_available" class="italic" style="color:#FF0000">Not Available</li>');
         });
         $('.standard_dd').addClass('disabled');
@@ -135,10 +140,15 @@ $(document).ready(function () {
         }
         $.get('{{ url('en/information') }}/create/ajax-standard?school_id=' + school_id, function(data) {
             $('#standard-option').empty();
-            $('.standard-value').html('SELECT STANDARD');
-            $.each(data, function(index,subCatObj){
-                $('#standard-option').append('<li data-id="'+subCatObj.id+'">'+subCatObj.name+'</li>');
-            });
+            if(data.length > 0){
+                $('.standard-value').html('SELECT STANDARD');
+                $.each(data, function(index,subCatObj){
+                    $('#standard-option').append('<li data-id="'+subCatObj.id+'">'+subCatObj.name+'</li>');
+                });
+            }else{
+                $('.standard-value').html('<font class="red_italic">Not Available</font>');
+                $('.standard_dd').addClass('disabled');
+            }
             //$('#standard-option').append('<li data-id="not_available" class="italic" style="color:#FF0000">Not Available</li>');
         });
     });
