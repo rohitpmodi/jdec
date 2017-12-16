@@ -412,7 +412,7 @@ class StoreController extends Controller {
                         'price'=>$book->price,
                         'price_after_tax'=>$book->price_after_tax,
                         'shipping_charges'=>$book->shipping_charges,
-                        'quantity'=>$book->quantity,
+                        'quantity'=>$book->product_qty,
                         'weight'=>$book->weight,
                         'hsn_code'=>$book->hsn_code,
                 ]);
