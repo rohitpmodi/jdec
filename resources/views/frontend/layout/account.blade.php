@@ -13,10 +13,6 @@
 
         <link rel="stylesheet" href="{!! asset('/frontend/css/responsive.css') !!}" type="text/css" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <!--[if lt IE 9]>
-                <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-        <![endif]-->
-        <script type="text/javascript" src="{!! asset('/assets/js/jquery/jquery.min.js') !!}"></script>
         <!-- Document Title 	============================================= -->
         <title>@yield('title', 'Secure User Account Area')</title>
         @include('frontend.layout.jeevandeep.jd-issue-script')

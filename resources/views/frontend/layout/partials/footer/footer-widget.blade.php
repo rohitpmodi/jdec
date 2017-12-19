@@ -21,7 +21,7 @@
 			<ul class="cf">
 				<li><i class="fa fa-phone"></i> +91-22-24837700/1/2/3/4</li>
 				<li><a href="mailto:enquiries@jeevandeep.in"><i class="fa fa-envelope"></i> enquiries@jeevandeep.in</a></li>
-				<li><a href="images/jeevandeep_publications-catalogue-2017.pdf" target="_blank"><i class="fa fa-list"></i> Download our catalogue</a></li>
+				<li><a href="https://jeevandeep.in/assets/jeevandeep_publications-catalogue-2017.pdf" target="_blank"><i class="fa fa-list"></i> Download our catalogue</a></li>
 			</ul>
 		</div>
 	</div>
