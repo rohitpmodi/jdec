@@ -13,7 +13,7 @@ class User extends EloquentUser {
 
     protected $table = 'users';
     protected $guarded = ['id'];
-    protected $fillable = ['isAdmin', 'uuid', 'email', 'password', 'mobile', 'last_login', 'first_name', 'middle_name', 'last_name', 'parent_first_name', 'parent_middle_name', 'parent_last_name', 'landline', 'verify'];
+    protected $fillable = ['isAdmin', 'uuid', 'email', 'password', 'mobile', 'last_login', 'first_name', 'middle_name', 'last_name', 'parent_first_name', 'parent_middle_name', 'parent_last_name', 'landline', 'verify', 'status', 'is_active'];
 
     public function setUuid($uuid) {
         return Uuid::generate(3, $this->first_name . $this->last_name, Uuid::NS_DNS);
