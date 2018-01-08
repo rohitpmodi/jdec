@@ -8,7 +8,7 @@ use App\Repositories\AbstractValidator as Validator;
 /**
  * Class SettingRepository.
  *
- * @author Phillip Madsen <contact@affordableprogrammer.com>
+ * @author Rohit Modi <rohitpmodi@gmail.com>
  */
 class SettingRepository extends Validator implements SettingInterface
 {

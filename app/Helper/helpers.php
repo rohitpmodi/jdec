@@ -168,7 +168,7 @@ function processText($string, $class = '') {
 }
 
 function getSubMenuDropdown() {
-    return array('' => '', 'menu_qnique' => 'Sewing Machines', 'menu_hand' => 'Hand Quilting', 'menu_machine' => 'Machine Frames', 'menu_qct' => 'Automation', 'menu_contact' => 'Contact');
+    return null;
 }
 
 function formatDate($date, $format = 'd/m/Y', $current_time = false) {

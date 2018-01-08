@@ -5,7 +5,7 @@ namespace App\Repositories;
 /**
  * Class RepositoryInterface.
  *
- * @author Phillip Madsen <contact@affordableprogrammer.com>
+ * @author Rohit Modi <rohitpmodi@gmail.com>
  */
 interface RepositoryInterface
 {

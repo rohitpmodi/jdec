@@ -56,7 +56,7 @@ use Illuminate\Support\ServiceProvider;
 /**
  * Class RepositoryServiceProvider.
  *
- * @author Phillip Madsen <contact@affordableprogrammer.com>
+ * @author Rohit Modi <rohitpmodi@gmail.com>
  */
 class RepositoryServiceProvider extends ServiceProvider
 {

@@ -8,7 +8,7 @@ use Illuminate\Support\ServiceProvider;
 /**
  * Class FeederServiceProvider.
  *
- * @author Phillip Madsen <contact@affordableprogrammer.com>
+ * @author Rohit Modi <rohitpmodi@gmail.com>
  */
 class FeederServiceProvider extends ServiceProvider
 {

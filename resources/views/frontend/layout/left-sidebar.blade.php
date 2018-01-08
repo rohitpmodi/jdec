@@ -36,7 +36,7 @@
 @yield('ppscripts')
 	<!-- Document Title ============================================= -->
 
-{{-- <title>{!! $settings['site_title'] or " Jeevandeep | Machine Quilting Frames | Hand Quilting Frames | Rotary Cutters" !!}</title> --}}
+{{-- <title>{!! $settings['site_title'] or " Jeevandeep" !!}</title> --}}
 
 </head>
 <body class=" @yield('bodytag') stretched" @yield('bodyschema')>

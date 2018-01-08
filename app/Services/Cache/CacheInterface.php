@@ -5,7 +5,7 @@ namespace App\Services\Cache;
 /**
  * Class CacheInterface.
  *
- * @author Phillip Madsen <contact@affordableprogrammer.com>
+ * @author Rohit Modi <rohitpmodi@gmail.com>
  */
 interface CacheInterface
 {

@@ -7,7 +7,7 @@ use App\Repositories\Article\ArticleInterface;
 /**
  * Class ArticleComposer.
  *
- * @author Phillip Madsen <contact@affordableprogrammer.com>
+ * @author Rohit Modi <rohitpmodi@gmail.com>
  */
 class HomePageComposer
 {

@@ -5,7 +5,7 @@ namespace App\Feeder;
 /**
  * Class Feeder.
  *
- * @author Phillip Madsen <contact@affordableprogrammer.com>
+ * @author Rohit Modi <rohitpmodi@gmail.com>
  */
 class Feeder
 {
@@ -13,7 +13,7 @@ class Feeder
      * @var array
      */
     protected $settings = [
-        'title'       => 'Grace ',
+        'title'       => 'Jeevandeep ',
         'description' => ' ',
         'link'        => 'link',
     ];
