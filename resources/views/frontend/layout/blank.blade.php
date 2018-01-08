@@ -21,12 +21,6 @@
         <!-- end: CSS REQUIRED FOR REV SLIDER -->
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="profile" href="http://microformats.org/profile/specs" />
-        <link rel="profile" href="http://microformats.org/profile/hatom" />
-        <!--[if lt IE 9]>
-                <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-        <![endif]-->
-
         <script type="text/javascript" src="{!! asset('/assets/js/jquery/jquery.min.js') !!}"></script>
         <script type="text/javascript" src="{!! asset('/jeevandeep/js/jquery.validate.js') !!}"></script>
 
