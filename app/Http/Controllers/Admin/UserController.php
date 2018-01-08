@@ -143,6 +143,8 @@ class UserController extends Controller {
             $user->last_name = $input['last_name'];
             $user->mobile = $input['mobile'];
             $user->landline = $input['landline'];
+            $user->is_active = 1;
+            $user->verify = 'COMPLETED';
             $user->save();
             
             $role = (isset($input['isAdmin']) && $input['isAdmin'] == 1) ? 'superadmin' : 'student';
@@ -216,6 +218,7 @@ class UserController extends Controller {
             }
             $user = User::find($id);
             $input['isAdmin'] = ($request->get('isAdmin') ? 1 : 0);
+            $input['status'] = ($request->get('status') ? 1 : 0);
             $user->update($input);
             $oldRoles = $user->getRoles()->lists('name', 'id')->toArray();
             foreach ($oldRoles as $id => $role) {

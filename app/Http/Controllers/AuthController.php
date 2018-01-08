@@ -138,7 +138,7 @@ class AuthController extends Controller {
 
             if (Sentinel::authenticate($request->only(['email', 'password']), $request->get('remember-me', false))) {
                 $user = User::find(Sentinel::getUser()->id);
-                if (!$user->is_active) {
+                if (!$user->is_active || !$user->status) {
                     Session::flush('cart');
                     Sentinel::logout();
                     return Redirect::route('signin')->with('error', 'Your account isn\'t active. Check email for activation link or contact administrator for further assistance.');
