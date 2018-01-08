@@ -143,7 +143,7 @@ return [
 
         /*
         |--------------------------------------------------------------------------
-        | phillips custom Service Providers
+        | rohits custom Service Providers
         |--------------------------------------------------------------------------*/
         App\Providers\RepositoryServiceProvider::class,
         App\Providers\ComposerServiceProvider::class,
@@ -152,7 +152,7 @@ return [
 
         /*
         |--------------------------------------------------------------------------
-        | phillips custom services
+        | rohits custom services
         |--------------------------------------------------------------------------*/
         Cartalyst\Sentinel\Laravel\SentinelServiceProvider::class,
         Intervention\Image\ImageServiceProvider::class,
@@ -175,7 +175,7 @@ return [
 
         /*
         |--------------------------------------------------------------------------
-        | phillips dev tools
+        | rohits dev tools
         |--------------------------------------------------------------------------*/
 
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
@@ -236,7 +236,7 @@ return [
 
 /*
 |--------------------------------------------------------------------------
-| Facades coding by phillip
+| Facades coding by rohit modi (rohitpmodi@gmail.com)
 |--------------------------------------------------------------------------
  */
 

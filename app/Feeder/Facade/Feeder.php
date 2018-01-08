@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Facade;
 /**
  * Class Feeder.
  *
- * @author Phillip Madsen <contact@affordableprogrammer.com>
+ * @author Rohit Modi <rohitpmodi@gmail.com>
  */
 class Feeder extends Facade
 {

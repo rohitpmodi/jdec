@@ -14,7 +14,7 @@ use Webpatser\Uuid\Uuid;
 /**
  * Class AppCommand.
  *
- * @author Phillip Madsen <contact@affordableprogrammer.com>
+ * @author Rohit Modi <rohitpmodi@gmail.com>
  */
 class AppCommand extends Command
 {
@@ -192,7 +192,7 @@ class AppCommand extends Command
 		do {
 			// Ask the user to input the first name
 			//$first_name = $this->ask('Please enter your first name: ');
-			$first_name = 'phillip';
+			$first_name = 'rohit';
 			// Check if the first name is valid
 			if ($first_name == '') {
 				// Return an error message
@@ -259,7 +259,7 @@ class AppCommand extends Command
 				$this->error('Password is invalid. Please try again.');
 			}
 
-			//$username = 'phillipmadsen';
+			//$username = 'rohitmodi';
 			// Store the password
 			$this->userData['isAdmin'] = '1';
 

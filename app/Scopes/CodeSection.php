@@ -3,8 +3,8 @@
 namespace App\Scopes;
 
 /**
- * Created by PhpStorm.
- * User: Phillip
+ * Created by Rohit Modi.
+ * User: Rohit Modi
  * Date: 11/15/2016
  * Time: 1:06 PM.
  *

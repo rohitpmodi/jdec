@@ -22,7 +22,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta content="The new jeevandeep company custom management suite" name="description" />
-    <meta content="phillip madsen" name="author" />
+    <meta content="Rohit Modi" name="author" />
     <!-- end: META -->
     @include('backend.layout.partials.default-styles')
 

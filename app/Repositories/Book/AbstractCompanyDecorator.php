@@ -5,7 +5,7 @@ namespace App\Repositories\Book;
 /**
  * Class AbstractBookDecorator.
  *
- * @author Phillip Madsen <contact@affordableprogrammer.com>
+ * @author Rohit Modi <rohitpmodi@gmail.com>
  */
 abstract class AbstractBookDecorator implements BookInterface
 {

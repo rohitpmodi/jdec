@@ -5,7 +5,7 @@ namespace App\Repositories\Setting;
 /**
  * Class AbstractSettingDecorator.
  *
- * @author Phillip Madsen <contact@affordableprogrammer.com>
+ * @author Rohit Modi <rohitpmodi@gmail.com>
  */
 abstract class AbstractSettingDecorator implements SettingInterface
 {

@@ -1,11 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Phillip
- * Date: 11/18/2016
- * Time: 3:44 PM
- */
-?>
 <!-- start: PANEL CONFIGURATION MODAL FORM -->
 <div class="modal fade" id="panel-config" tabindex="-1" role="dialog" aria-hidden="true">
 	<div class="modal-dialog">

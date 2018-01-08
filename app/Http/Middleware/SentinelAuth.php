@@ -8,7 +8,7 @@ use Sentinel;
 /**
  * Class SentinelAuth.
  *
- * @author Phillip Madsen <contact@affordableprogrammer.com>
+ * @author Rohit Modi <rohitpmodi@gmail.com>
  */
 class SentinelAuth
 {

@@ -8,7 +8,7 @@ use News;
 /**
  * Class MenuComposer.
  *
- * @author Phillip Madsen <contact@affordableprogrammer.com>
+ * @author Rohit Modi <rohitpmodi@gmail.com>
  */
 class NewsComposer
 {

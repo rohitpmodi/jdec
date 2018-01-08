@@ -1,11 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Phillip
- * Date: 11/18/2016
- * Time: 3:38 PM
- */
-?>
 <div class="navbar navbar-inverse navbar-fixed-top">
 	<!-- start: TOP NAVIGATION CONTAINER -->
 	<div class="container">

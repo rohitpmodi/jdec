@@ -5,7 +5,7 @@ namespace App\Repositories\Menu;
 /**
  * Class AbstractMenuDecorator.
  *
- * @author Phillip Madsen <contact@affordableprogrammer.com>
+ * @author Rohit Modi <rohitpmodi@gmail.com>
  */
 abstract class AbstractMenuDecorator implements MenuInterface
 {

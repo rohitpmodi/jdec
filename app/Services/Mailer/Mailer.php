@@ -11,7 +11,7 @@ use Validator;
 /**
  * Class FormPostController.
  *
- * @author Phillip Madsen <contact@affordableprogrammer.com>
+ * @author Rohit Modi <rohitpmodi@gmail.com>
  */
 class Mailer extends Controller
 {
