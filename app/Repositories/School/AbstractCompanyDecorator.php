@@ -5,7 +5,7 @@ namespace App\Repositories\School;
 /**
  * Class AbstractSchoolDecorator.
  *
- * @author Phillip Madsen <contact@affordableprogrammer.com>
+ * @author Rohit Modi <rohitpmodi@gmail.com>
  */
 abstract class AbstractSchoolDecorator implements SchoolInterface
 {

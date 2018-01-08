@@ -10,7 +10,7 @@ use URL;
 /**
  * Class Menu.
  *
- * @author Phillip Madsen <contact@affordableprogrammer.com>
+ * @author Rohit Modi <rohitpmodi@gmail.com>
  */
 class Menu extends Model
 {
@@ -170,26 +170,6 @@ class Menu extends Model
         $menuOptions = [
             'General' => [
             'home'            => 'Home',
-            'automation'      => 'Automation',
-            'blog'            => 'Blog',
-            'contact'         => 'Contact',
-            'events'          => 'Events',
-            'faq'             => 'Faq',
-            'hand-quilting'   => 'Hand Quilting',
-            'machine-frames'  => 'Machine Frames',
-            'news'            => 'News',
-            'project'         => 'Project',
-            'accessories'     => 'Accessories',
-            'community'       => 'Community',
-	            'support'           => 'Support',
-	                'support-videos'    => 'Support Videos',
-	                'instructions'      => 'Instructions',
-            'qnique'          => 'Qnique',
-            'sewing-machines' => 'Sewing Machines',
-            'shop'            => 'Shop',
-
-            'truecut'         => 'True Cut',
-            'videos'          => 'Videos',
             ],
             'Page'          => (isset($opts['Page']) ? $opts['Page'] : []),
             'Photo Gallery' => (isset($opts['PhotoGallery']) ? $opts['PhotoGallery'] : []), ];
@@ -212,29 +192,6 @@ class Menu extends Model
            switch ($option) {
 
             case 'home':                    $url = '/'; break;
-	        case 'sewing-machines':         $url = '/sewing-machines/quilting-machines'; break;
-	           case 'qnique':                      $url = '/sewing-machines/qnique'; break;
-
-            case 'hand-quilting':           $url = '/hand-quilting'; break;
-            case 'machine-frames':          $url = '/machine-frames'; break;
-	           case 'automation':              $url = '/automation/qct'; break;
-	        case 'truecut':                 $url = '/truecut'; break;
-	        case 'accessories':             $url = '/accessories'; break;
-            case 'resources':               $url = '/resources'; break;
-	            case 'blog':                    $url = '/resources/blog'; break;
-	            case 'community':               $url = '/resources/community'; break;
-	            case 'events':                  $url = '/resources/events'; break;
-	            case 'faq':                     $url = '/resources/faq'; break;
-	            case 'support':                 $url = '/resources/support'; break;
-	                case 'support-videos':               $url = '/resources/support/videos'; break;
-	                case 'instructions':                 $url = '/resources/support/instructions'; break;
-	            case 'news':                    $url = '/resources/news'; break;
-	            case 'project':                 $url = '/resources/project'; break;
-	            case 'videos':                  $url = '/resources/videos'; break;
-	        case 'contact':                 $url = '/contact'; break;
-          case 'shop':                    $url = '/shop'; break;
-
-
             default: $url = $this->getModuleUrl($option); break; }
 
            $url = url(getLang().'/'.ltrim($url, '/'));

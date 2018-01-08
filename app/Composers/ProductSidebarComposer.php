@@ -8,7 +8,7 @@ use App\Repositories\Category\CategoryInterface;
 /**
  * Class ProductSidebarComposer.
  *
- * @author Phillip Madsen <contact@affordableprogrammer.com>
+ * @author Rohit Modi <rohitpmodi@gmail.com>
  */
 class ProductSidebarComposer
 {

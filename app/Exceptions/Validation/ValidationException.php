@@ -7,7 +7,7 @@ use Exception;
 /**
  * Class ValidationException.
  *
- * @author Phillip Madsen <contact@affordableprogrammer.com>
+ * @author Rohit Modi <rohitpmodi@gmail.com>
  */
 class ValidationException extends Exception
 {

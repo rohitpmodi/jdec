@@ -8,7 +8,7 @@ use App\Repositories\RepositoryAbstract;
 /**
  * Class MenuRepository.
  *
- * @author Phillip Madsen <contact@affordableprogrammer.com>
+ * @author Rohit Modi <rohitpmodi@gmail.com>
  */
 class MenuRepository extends RepositoryAbstract implements MenuInterface
 {

@@ -15,7 +15,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta content="" name="description" />
-    <meta content="Phillip Madsen" name="author" />
+    <meta content="Rohit Modi" name="author" />
     <!-- end: META -->
     <!-- start: MAIN CSS -->
     <link rel="stylesheet" href="{!! asset('/backend/assets/plugins/bootstrap/css/bootstrap.min.css') !!}">

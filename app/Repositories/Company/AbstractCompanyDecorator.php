@@ -5,7 +5,7 @@ namespace App\Repositories\Company;
 /**
  * Class AbstractCompanyDecorator.
  *
- * @author Phillip Madsen <contact@affordableprogrammer.com>
+ * @author Rohit Modi <rohitpmodi@gmail.com>
  */
 abstract class AbstractCompanyDecorator implements CompanyInterface
 {

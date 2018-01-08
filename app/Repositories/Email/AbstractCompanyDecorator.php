@@ -5,7 +5,7 @@ namespace App\Repositories\Email;
 /**
  * Class AbstractEmailDecorator.
  *
- * @author Phillip Madsen <contact@affordableprogrammer.com>
+ * @author Rohit Modi <rohitpmodi@gmail.com>
  */
 abstract class AbstractEmailDecorator implements EmailInterface
 {

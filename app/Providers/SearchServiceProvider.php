@@ -7,7 +7,7 @@ use Illuminate\Support\ServiceProvider;
 /**
  * Class SearchServiceProvider.
  *
- * @author Phillip Madsen <contact@affordableprogrammer.com>
+ * @author Rohit Modi <rohitpmodi@gmail.com>
  */
 class SearchServiceProvider extends ServiceProvider
 {

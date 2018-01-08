@@ -5,7 +5,7 @@ namespace App\Repositories\Standard;
 /**
  * Class AbstractStandardDecorator.
  *
- * @author Phillip Madsen <contact@affordableprogrammer.com>
+ * @author Rohit Modi <rohitpmodi@gmail.com>
  */
 abstract class AbstractStandardDecorator implements StandardInterface
 {

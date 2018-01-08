@@ -5,7 +5,7 @@ Route::get('/r', function () {
     /**
      * undocumented function.
      *
-     * @author Phillip Madsen <contact@affordableprogrammer.com>
+     * @author Rohit Modi <rohitpmodi@gmail.com>
      *
      * @return void //ouputs a list of routes and easy ways to use them.
      */

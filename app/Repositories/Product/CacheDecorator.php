@@ -7,7 +7,7 @@ use App\Services\Cache\CacheInterface;
 /**
  * Class CacheDecorator.
  *
- * @author Phillip Madsen <contact@affordableprogrammer.com>
+ * @author Rohit Modi <rohitpmodi@gmail.com>
  */
 class CacheDecorator extends AbstractProductDecorator
 {
